@@ -1,3 +1,3 @@
-import { readFile } from "./util";
+import { readInput } from "./util";
 
-console.log(readFile("./input.txt"));
+console.log(readInput("input.txt"));
