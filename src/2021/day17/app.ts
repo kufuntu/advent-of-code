@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 
-const file = readFileSync('./src/2020/day17/input.txt').toString();
+const file = readFileSync('./src/2021/day17/input.txt').toString();
 
 export const splitInput = (input: string) => input.split("\n").map(number => parseInt(number.trim(), 10));
 

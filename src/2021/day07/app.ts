@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 
-const file = readFileSync('./src/2020/day07/input.txt').toString();
+const file = readFileSync('./src/2021/day07/input.txt').toString();
 
 export interface Rule {
 	key: string;
