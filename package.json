@@ -4,6 +4,7 @@
   "description": "Code and Development environment for adventofcode.com",
   "scripts": {
     "start": "ts-node-dev --respawn",
+    "start:memory": "node --max-old-space-size=4096 -- node_modules/.bin/ts-node -P tsconfig.json",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
